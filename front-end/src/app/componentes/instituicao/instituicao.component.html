@@ -1,0 +1,42 @@
+<nav class="navbar navbar-light bg-light">
+    <div class="form-inline">
+        <button class="btn btn-outline-success my-2 my-sm-0" routerLink="add"> cadastrar</button>
+    </div>
+</nav>
+
+<div class="table-responsive-sm">
+    <table class="table">
+        <tr>
+            <th>
+                Açoes
+            </th>
+            <th>
+                Nome
+            </th>
+            <th>
+                E-mail
+            </th>
+
+            <th>
+                CNPJ
+            </th>
+
+        </tr>
+        <tr *ngFor="let instituicao of instituicoes">
+            <td>
+                <button class="btn btn-danger" (click)='deletar(instituicao.id)' >Excluir</button>
+                <button class="btn btn-info" [routerLink]="['../instituicao', instituicao.id]"  >Editar</button>
+            </td>
+            <td>
+                {{instituicao.nome}}
+            </td>
+            <td>
+                {{instituicao.endereco}}
+            </td>
+            <td>
+                {{instituicao.cnpj}}
+            </td>
+
+        </tr>
+    </table>
+</div>
