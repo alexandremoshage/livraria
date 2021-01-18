@@ -1,4 +1,9 @@
-#Funcionalidades
+## livraria
+
+Este projeto visa controlar a cadastro de livros, cadastro de usuários e o cadastro de entidades de ensino,
+Foram implementado as rotinas de Emprestimo, devolução e reserva de livros
+
+## Funcionalidades
 
 Instituição de Ensino
 Permite cadastrar, alterar,excluir, consultar.
@@ -7,12 +12,8 @@ Permite cadastrar, alterar,excluir, consultar.
 Livro
 Permite cadastrar, alterar,excluir, consultar ,Emprestar um livro, Emprestar um livro reservado e devolver o livro
 
-# livraria
 
-Este projeto visa controlar a cadastro de livros, cadastro de usuários e o cadastro de entidades de ensino,
-Foram implementado as rotinas de Emprestimo, devolução e reserva de livros
-
-##Técnologias
+## Técnologias
 Back-end
 ASP.NET Core 3.1
 Entity Framework Core 3.1.6 
