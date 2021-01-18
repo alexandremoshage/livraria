@@ -41,6 +41,6 @@ Foi ultilizado o SQL SERVER, Segue o script com os dados e as tabelas do banco d
   Execute npm install para instalar as dependências
   Execute ng serve -o
 
-##
+##Melhorias futuras
 Criar um end point para o envio das imagens
 Criar FrontEnd para as funcionalidades do livro e usuário, visto que hoje só as funcionalidades da Instituição de Ensino foram implementadas no front-end
